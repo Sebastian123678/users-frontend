@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+h1 {
+    color: azure;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+}
+.openCreateUser {
+    padding: 0.6em 1.4em 0.6em 1.4em;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgb(2, 107, 16);
+    color: white;
+    border-radius: 0.5em;
+    transition: 300ms;
+}
+.openCreateUser:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
